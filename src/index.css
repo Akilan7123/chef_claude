@@ -1,0 +1,132 @@
+*{
+  margin:0;
+  box-sizing:border-box;
+}
+
+.headerContainer{
+  height:100px;
+
+  background-color: #fff9ee;
+  color:rgb(177, 129, 90);
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10), 0px 1px 2px 0px rgba(0,0,0,0.06);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.headerContainer > img{
+  width:100px;
+}
+
+.headerContainer > h1{
+  margin-left: -23px;
+  font-weight: 500;
+}
+
+main{
+  padding: 70px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer{
+  display: flex;
+  justify-content: center ;
+  gap:12px;
+  margin-bottom:20px;
+  width: 100%;
+}
+
+.mainContainer > input{
+  padding:9px 13px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #D1D5D8;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.05);
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+}
+
+.mainContainer > button{
+  background-color: #141413;
+  border: none;
+  color: #FAFAF8;
+  border-radius: 6px;
+  width:150px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.05);
+}
+
+.mainContainer > button::before{
+  content: "+ ";
+}
+
+.listContainer{
+  width: 100%;
+  max-width: 550px;
+  min-width: 200px;
+}
+
+.ingredientUnordList > li{
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.readyRecipe{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:40px;
+  padding: 30px 28px 20px;
+  background-color: #FAFAF8;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.6);
+  margin-bottom: 30px;
+}
+
+.readyRecipe h3{
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+
+.readyRecipeText > p{
+  line-height: 20px;
+  color:#6B7280;
+  font-size: 14px;
+}
+
+.readyRecipe > button{
+  width: 110px;
+  padding: 7px 3px;
+  background-color: rgb(236, 120, 143);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.3);
+}
+
+
+.suggestedRecipeContainer{
+  color: #475467;
+  line-height: 28px;
+  font-size:1.125rem;
+  font-weight: 400;
+  max-width: 800px;
+}
+
+.suggestedRecipeContainer h2{
+  margin-bottom: 20px;
+}
+
+.suggestedRecipeContainer ul li , .suggestedRecipeContainer ol li {
+  margin-bottom: 8px;
+}
